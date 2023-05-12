@@ -1,0 +1,72 @@
+.container{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.table{
+    text-align: left;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table tr, td, th{
+    border: solid rgb(0, 0, 0, 0.5);
+    border-width: 1px 0;
+    padding: 0.6em 1em;
+    text-align: center;
+}
+
+.content{
+    color: white;
+    padding: 5px 10px;
+
+    border-radius: 20px;
+    background: #ff9966; 
+}
+
+.big-container{
+    display: flex;
+    margin: auto;
+    margin-top: 20em;
+    margin-bottom: 50px;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.small-container{
+    display: grid;
+    grid-row-gap: 1.2em;
+}
+
+.small-container input, .btn{
+    color: white;
+    padding: 5px 10px;
+    border: 0.2em solid purple;
+
+    border-radius: 50px;
+    background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+.small-container input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.break, .lunch{
+    color: white;
+    padding: 0 1.5em;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    border-radius: 20px;
+}
